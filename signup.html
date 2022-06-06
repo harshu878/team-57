@@ -15,14 +15,16 @@
             margin-top: 50px;
             box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
         }
-        #contaner > p
+        #contaner > span
         {
-            text-align: center;
+            justify-content: center;
+            display: flex;
             padding-top: 11%;
             padding-bottom: 5%;
             color: #F2F2F2;
             font-size: 28px;
-            font-weight:100 ;
+            font-family: system-ui;
+            font-weight: lighter;
         }
         input
         {
@@ -57,7 +59,7 @@ button:hover{
 </head>
 <body>
     <div id="contaner">
-        <p>- Visitor -</p>
+        <span>- Visitor -</span>
         <form >
             <input id="name" placeholder="Full name" type="text">
             <input id="email" placeholder="Email" type="email">
